@@ -1,0 +1,71 @@
+.main {
+    /* Add styles for the 'main' class here */
+    /* Example: */
+    /* Add more styles as needed */
+    /* Add styles for the 'is-loading' class here */
+    /* Example: */
+    /* Add more styles as needed */
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
+    background: url('/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.inner {
+    /* Add styles for the 'inner' class here */
+    /* Example: */
+    min-width: 98vw;
+    /* Add more styles as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #535c63ed;
+}
+
+.header {
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.prompt {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.goal {
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.footer {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #535c63ed;
+}
+
+@media (max-width: 976px) { 
+
+    .inner {
+        min-height: 70vh;
+        padding: 20px;
+    }
+
+}
