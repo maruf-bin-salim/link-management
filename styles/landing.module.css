@@ -13,7 +13,7 @@
     overflow-y: scroll;
     align-items: center;
     justify-content: center;
-    background: url('/bg.jpeg');
+    background: url('/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,17 +32,16 @@
     align-items: center;
     min-height: 100vh;
     text-align: center;
-    color: #535c63ed;
+    color: white;
 }
 
 .header {
-    color: white;
-    font-size: 50px;
+    font-size: 60px;
 
 }
 
 .prompt {
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 30px;
 }
 
@@ -58,7 +57,6 @@
     justify-content: center;
     align-items: center;
     font-size: 17px;
-    color: #535c63ed;
     color: white;
 }
 
@@ -77,14 +75,13 @@
 
 @media (max-width: 976px) { 
 
-    .header {
-    }
-    .goal {
-    }
 
     .inner {
         min-height: 70vh;
         padding: 20px;
+    }
+    .prompt {
+        font-size: 30px;
     }
 
 }
