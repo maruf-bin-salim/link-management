@@ -108,7 +108,7 @@ function AdminDesktop() {
                 <div className={styles.topbar}>
                     <div className={styles.adminTitle}><h1>
                         {
-                            selectedLink ? "https://link-management.onrender.com/" + selectedLink?.name : "Admin Dashboard"
+                            selectedLink ? "https://www.unicapfz.com/" + selectedLink?.name : "Admin Dashboard"
                         }
                     </h1></div>
                     <button onClick={() => { setIsAdding(true) }}>Add New Link</button>
