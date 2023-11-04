@@ -62,10 +62,10 @@
 }
 
 .handshake {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-top: 30px;
-    background: url('/handshake.jpg');
+    background: url('/handshake.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
