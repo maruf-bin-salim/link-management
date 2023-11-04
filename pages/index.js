@@ -14,7 +14,7 @@ export default function Home() {
         <p className={styles.goal}>
           Unleashing Potential in New Markets with Business Process Outsourcing Innovation
         </p>
-        <div className={styles.handshake}></div>
+        {/* <div className={styles.handshake}></div> */}
 
 
       </div>

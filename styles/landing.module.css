@@ -13,7 +13,7 @@
     overflow-y: scroll;
     align-items: center;
     justify-content: center;
-    background: url('/bg.jpg');
+    background: url('/bg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 .header {
     color: white;
     font-size: 50px;
-    margin-top: auto;
+
 }
 
 .prompt {
@@ -59,6 +59,7 @@
     align-items: center;
     font-size: 17px;
     color: #535c63ed;
+    color: white;
 }
 
 .handshake {
@@ -77,10 +78,8 @@
 @media (max-width: 976px) { 
 
     .header {
-        margin-top: 10vh;
     }
     .goal {
-        margin-bottom: 10vh;
     }
 
     .inner {
