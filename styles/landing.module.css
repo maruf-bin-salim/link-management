@@ -38,7 +38,7 @@
 .header {
     color: white;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: auto;
 }
 
 .prompt {
@@ -61,7 +61,27 @@
     color: #535c63ed;
 }
 
+.handshake {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    background: url('/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
 @media (max-width: 976px) { 
+
+    .header {
+        margin-top: 10vh;
+    }
+    .goal {
+        margin-bottom: 10vh;
+    }
 
     .inner {
         min-height: 70vh;
