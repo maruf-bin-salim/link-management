@@ -22,7 +22,7 @@ export default function Home() {
       <div className={styles.footer}>
 
         <p id={styles.text23} className={styles.style6}>
-          ©2023 Uncap. All Rights reserved.
+          ©2023 Unicap. All Rights reserved.
         </p>
 
       </div>
